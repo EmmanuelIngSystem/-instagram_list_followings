@@ -1,4 +1,4 @@
-// variables globales
+// global variables
 var list_followings = [];
 var ul;
 
@@ -36,7 +36,7 @@ function insertUlTag()
     });
 }
 
-// llamamos a cada funcion respectivamente
+// we call each function respectively
 addFollowings(getContainer());
 createTitle();
 createUl();
